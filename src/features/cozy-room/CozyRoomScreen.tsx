@@ -59,9 +59,7 @@ export function CozyRoomScreen() {
         </View>
         <StreakIndicator streak={streak} onPress={() => router.push('/streaks')} />
       </Row>
-      <CozyRoomScene
-        onOpenBook={() => (next ? router.push(`/lesson/${next.id}`) : router.push('/lessons'))}
-      />
+      <CozyRoomScene />
       <CatalogNotice
         message={app.catalogError}
         onRetry={() => {
