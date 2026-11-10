@@ -1,0 +1,18 @@
+project_id = "haru-korean"
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+# Every function verifies the bearer token using Supabase Auth getUser.
+# This also supports projects using the newer asymmetric signing keys.
+[functions.conversation]
+verify_jwt = false
+[functions.transcribe]
+verify_jwt = false
+[functions.speak]
+verify_jwt = false
+[functions.speak-lesson]
+verify_jwt = false
+[functions.delete-account]
+verify_jwt = false

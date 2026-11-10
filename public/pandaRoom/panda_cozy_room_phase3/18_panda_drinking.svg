@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+<title>Panda holding coffee — cup and hand separate</title>
+<desc>Original clean unclothed seated panda, built from independent SVG groups. Each group has a stable ID. Hidden expressions are optional variants.</desc>
+<defs>
+ <linearGradient id="fur" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".82" stop-color="#fffefd"/><stop offset="1" stop-color="#e9e0df"/></linearGradient>
+ <linearGradient id="dark" x2=".3" y2="1"><stop stop-color="#55443f"/><stop offset="1" stop-color="#302522"/></linearGradient>
+ <radialGradient id="blush"><stop stop-color="#f3a8ae" stop-opacity=".7"/><stop offset="1" stop-color="#f3a8ae" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- Background deliberately transparent. All coordinates are shared across components. -->
+<g id="panda_root">
+ <g id="tail" data-pivot="626,631"><path d="M581 583 C649 551 693 610 662 666 C647 696 606 700 578 680Z" fill="url(#fur)" stroke="#342621" stroke-width="7"/></g>
+ <g id="body" data-pivot="400,576"><path d="M289 471 C253 500 245 621 276 686 C305 746 499 747 532 689 C568 619 545 503 509 472Z" fill="url(#fur)" stroke="#342621" stroke-width="8"/><path d="M317 675 Q400 720 489 676" fill="none" stroke="#e7dedd" stroke-width="9" opacity=".65"/></g>
+ <g id="leg_left" data-pivot="281,621"><ellipse cx="270" cy="633" rx="104" ry="119" transform="rotate(-13 270 633)" fill="url(#dark)" stroke="#342621" stroke-width="8"/><ellipse cx="264" cy="658" rx="51" ry="57" fill="#f5b6bd"/><ellipse cx="208" cy="602" rx="14" ry="19" fill="#f5b6bd"/><ellipse cx="245" cy="581" rx="14" ry="19" fill="#f5b6bd"/><ellipse cx="282" cy="580" rx="14" ry="19" fill="#f5b6bd"/><ellipse cx="315" cy="601" rx="14" ry="19" fill="#f5b6bd"/></g>
+ <g id="leg_right" data-pivot="529,621"><ellipse cx="530" cy="633" rx="104" ry="119" transform="rotate(13 530 633)" fill="url(#dark)" stroke="#342621" stroke-width="8"/><ellipse cx="536" cy="658" rx="51" ry="57" fill="#f5b6bd"/><ellipse cx="485" cy="601" rx="14" ry="19" fill="#f5b6bd"/><ellipse cx="519" cy="580" rx="14" ry="19" fill="#f5b6bd"/><ellipse cx="556" cy="581" rx="14" ry="19" fill="#f5b6bd"/><ellipse cx="592" cy="602" rx="14" ry="19" fill="#f5b6bd"/></g>
+ <g id="arm_left" data-pivot="321,478"><ellipse cx="328" cy="516" rx="89" ry="66" transform="rotate(18 328 516)" fill="url(#dark)" stroke="#342621" stroke-width="8"/></g>
+ <g id="arm_right" data-pivot="479,478" transform="translate(25 -62) rotate(-58 479 478)"><ellipse cx="472" cy="516" rx="89" ry="66" transform="rotate(-18 472 516)" fill="url(#dark)" stroke="#342621" stroke-width="8"/></g>
+ <g id="coffee_cup_held" data-pivot="475,405" data-detachable="true"><path id="held_cup_handle" d="M505 365 C555 344 558 424 509 411" fill="none" stroke="#d9e8e5" stroke-width="17"/><path id="held_cup_body" d="M437 355 Q439 430 460 440 L494 440 Q520 430 524 355 Z" fill="#f3f8ef" stroke="#789a9b" stroke-width="5"/><ellipse id="held_cup_rim" cx="480" cy="355" rx="43" ry="12" fill="#a87a5d" stroke="#789a9b" stroke-width="4"/><path id="held_cup_highlight" d="M451 383 Q451 411 463 424" fill="none" stroke="#ffffff" stroke-width="7" opacity=".7"/></g><g id="head" data-pivot="400,316" transform="translate(0 0) rotate(-5 400 316)">
+  <g id="ear_left" data-pivot="253,178"><circle cx="253" cy="178" r="87" fill="url(#dark)" stroke="#342621" stroke-width="8"/><circle cx="254" cy="183" r="54" fill="#3b2c28" opacity=".7"/></g>
+  <g id="ear_right" data-pivot="547,178"><circle cx="547" cy="178" r="87" fill="url(#dark)" stroke="#342621" stroke-width="8"/><circle cx="546" cy="183" r="54" fill="#3b2c28" opacity=".7"/></g>
+  <g id="head_fur"><path d="M400 132 C275 123 201 184 174 282 C142 399 192 486 303 508 C369 522 437 524 502 509 C611 489 660 402 627 282 C599 183 524 124 400 132Z" fill="url(#fur)" stroke="#342621" stroke-width="8" stroke-linejoin="round"/><path d="M372 139 L384 119 L400 137 L414 119 L428 142" fill="url(#fur)" stroke="#342621" stroke-width="7" stroke-linejoin="round"/></g>
+  <g id="cheek_left"><ellipse cx="253" cy="398" rx="65" ry="48" fill="url(#blush)"/></g>
+  <g id="cheek_right"><ellipse cx="547" cy="398" rx="65" ry="48" fill="url(#blush)"/></g>
+  <g id="brow_left"><path d="M293 296 Q310 281 327 290" fill="none" stroke="#d9cbca" stroke-width="7" stroke-linecap="round"/></g>
+  <g id="brow_right"><path d="M473 290 Q490 281 507 296" fill="none" stroke="#d9cbca" stroke-width="7" stroke-linecap="round"/></g>
+  <g id="eye_left" data-pivot="317,354" display="none"><ellipse cx="317" cy="353" rx="45" ry="53" fill="#30221f"/><circle cx="328" cy="334" r="12" fill="white"/></g>
+  <g id="eye_right" data-pivot="483,354" display="none"><ellipse cx="483" cy="353" rx="45" ry="53" fill="#30221f"/><circle cx="494" cy="334" r="12" fill="white"/></g>
+  <g id="nose"><path d="M382 384 Q400 377 418 384 Q414 396 400 397 Q386 396 382 384Z" fill="#49342e"/></g>
+  <g id="mouth_neutral" display="inline"><path d="M400 397 L400 408 M400 408 Q384 426 370 408 M400 408 Q416 426 430 408" fill="none" stroke="#49342e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g id="mouth_speaking" display="none"><path d="M376 407 Q400 395 424 407 Q426 450 400 450 Q374 450 376 407Z" fill="#a64d57" stroke="#49342e" stroke-width="6"/><ellipse cx="400" cy="435" rx="15" ry="8" fill="#f7a0a9"/></g>
+  <g id="mouth_happy" display="none"><path d="M365 405 Q400 449 435 405 Q432 460 400 460 Q368 460 365 405Z" fill="#9e4750" stroke="#49342e" stroke-width="6"/><path d="M381 448 Q400 434 419 448" fill="none" stroke="#f6a3aa" stroke-width="9"/></g>
+  <g id="eyes_closed" display="inline"><path d="M279 352 Q317 313 354 352 M446 352 Q483 313 521 352" fill="none" stroke="#30221f" stroke-width="10" stroke-linecap="round"/></g>
+ </g>
+</g>
+</svg>

@@ -1,0 +1,597 @@
+[
+  {
+    "id": "roomp0",
+    "group": "asset_walls_walls",
+    "layer": "layer_walls"
+  },
+  {
+    "id": "roomp1",
+    "group": "asset_walls_walls",
+    "layer": "layer_walls"
+  },
+  {
+    "id": "roomp2",
+    "group": "asset_walls_walls",
+    "layer": "layer_walls"
+  },
+  {
+    "id": "roomp3",
+    "group": "asset_walls_walls",
+    "layer": "layer_walls"
+  },
+  {
+    "id": "roomp4",
+    "group": "asset_walls_walls",
+    "layer": "layer_walls"
+  },
+  {
+    "id": "roomp5",
+    "group": "asset_wood_floor_floor",
+    "layer": "layer_wood_floor"
+  },
+  {
+    "id": "roomp6",
+    "group": "asset_wood_floor_floor",
+    "layer": "layer_wood_floor"
+  },
+  {
+    "id": "roomp7",
+    "group": "asset_wood_floor_floor",
+    "layer": "layer_wood_floor"
+  },
+  {
+    "id": "roomp8",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp9",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp10",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp11",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp12",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp13",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp14",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp15",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp16",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp17",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp18",
+    "group": "asset_seoul_skyline_namsan_tower",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp19",
+    "group": "asset_seoul_skyline_namsan_tower",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp20",
+    "group": "asset_seoul_skyline_namsan_tower",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp21",
+    "group": "asset_seoul_skyline_skyline",
+    "layer": "layer_seoul_skyline"
+  },
+  {
+    "id": "roomp22",
+    "group": "asset_rain_clouds_rain_clouds",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp23",
+    "group": "asset_rain_clouds_rain_clouds",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp24",
+    "group": "asset_rain_clouds_rain_clouds",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp25",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp26",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp27",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp28",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp29",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp30",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp31",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp32",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp33",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp34",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp35",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp36",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp37",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp38",
+    "group": "asset_rain_clouds_rain",
+    "layer": "layer_rain_clouds"
+  },
+  {
+    "id": "roomp39",
+    "group": "asset_window_window",
+    "layer": "layer_window"
+  },
+  {
+    "id": "roomp40",
+    "group": "asset_window_window",
+    "layer": "layer_window"
+  },
+  {
+    "id": "roomp41",
+    "group": "asset_window_window",
+    "layer": "layer_window"
+  },
+  {
+    "id": "roomp42",
+    "group": "asset_window_window",
+    "layer": "layer_window"
+  },
+  {
+    "id": "roomp43",
+    "group": "asset_window_window",
+    "layer": "layer_window"
+  },
+  {
+    "id": "roomp44",
+    "group": "asset_window_window",
+    "layer": "layer_window"
+  },
+  {
+    "id": "roomp45",
+    "group": "asset_wall_clock_clock_frame",
+    "layer": "layer_wall_clock"
+  },
+  {
+    "id": "roomp46",
+    "group": "asset_wall_clock_clock_frame",
+    "layer": "layer_wall_clock"
+  },
+  {
+    "id": "roomp47",
+    "group": "asset_wall_clock_clock_ticks",
+    "layer": "layer_wall_clock"
+  },
+  {
+    "id": "roomp48",
+    "group": "asset_wall_clock_hour_hand",
+    "layer": "layer_wall_clock"
+  },
+  {
+    "id": "roomp49",
+    "group": "asset_wall_clock_minute_hand",
+    "layer": "layer_wall_clock"
+  },
+  {
+    "id": "roomp50",
+    "group": "asset_wall_clock_clock_center",
+    "layer": "layer_wall_clock"
+  },
+  {
+    "id": "roomp51",
+    "group": "asset_bookshelf_bookshelf",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp52",
+    "group": "asset_bookshelf_bookshelf",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp53",
+    "group": "asset_bookshelf_bookshelf",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp54",
+    "group": "asset_bookshelf_books",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp55",
+    "group": "asset_bookshelf_books",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp56",
+    "group": "asset_bookshelf_books",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp57",
+    "group": "asset_bookshelf_books",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp58",
+    "group": "asset_bookshelf_books",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp59",
+    "group": "asset_bookshelf_books",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp60",
+    "group": "asset_bookshelf_books",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp61",
+    "group": "asset_bookshelf_books",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp62",
+    "group": "asset_bookshelf_books",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp63",
+    "group": "asset_bookshelf_decor",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp64",
+    "group": "asset_bookshelf_decor",
+    "layer": "layer_bookshelf"
+  },
+  {
+    "id": "roomp65",
+    "group": "asset_floor_lamp_lamp",
+    "layer": "layer_floor_lamp"
+  },
+  {
+    "id": "roomp66",
+    "group": "asset_floor_lamp_lamp",
+    "layer": "layer_floor_lamp"
+  },
+  {
+    "id": "roomp67",
+    "group": "asset_floor_lamp_lamp",
+    "layer": "layer_floor_lamp"
+  },
+  {
+    "id": "roomp68",
+    "group": "asset_floor_lamp_lamp",
+    "layer": "layer_floor_lamp"
+  },
+  {
+    "id": "roomp69",
+    "group": "asset_floor_lamp_lamp",
+    "layer": "layer_floor_lamp"
+  },
+  {
+    "id": "roomp70",
+    "group": "asset_floor_lamp_lamp",
+    "layer": "layer_floor_lamp"
+  },
+  {
+    "id": "roomp71",
+    "group": "asset_rug_rug",
+    "layer": "layer_rug"
+  },
+  {
+    "id": "roomp72",
+    "group": "asset_rug_rug",
+    "layer": "layer_rug"
+  },
+  {
+    "id": "roomp73",
+    "group": "asset_rug_rug",
+    "layer": "layer_rug"
+  },
+  {
+    "id": "roomp74",
+    "group": "asset_rug_rug",
+    "layer": "layer_rug"
+  },
+  {
+    "id": "roomp75",
+    "group": "asset_armchair_armchair",
+    "layer": "layer_armchair"
+  },
+  {
+    "id": "roomp76",
+    "group": "asset_armchair_armchair",
+    "layer": "layer_armchair"
+  },
+  {
+    "id": "roomp77",
+    "group": "asset_armchair_armchair",
+    "layer": "layer_armchair"
+  },
+  {
+    "id": "roomp78",
+    "group": "asset_armchair_armchair",
+    "layer": "layer_armchair"
+  },
+  {
+    "id": "roomp79",
+    "group": "asset_armchair_armchair",
+    "layer": "layer_armchair"
+  },
+  {
+    "id": "roomp80",
+    "group": "asset_armchair_armchair",
+    "layer": "layer_armchair"
+  },
+  {
+    "id": "roomp81",
+    "group": "asset_armchair_armchair",
+    "layer": "layer_armchair"
+  },
+  {
+    "id": "roomp82",
+    "group": "asset_armchair_armchair",
+    "layer": "layer_armchair"
+  },
+  {
+    "id": "roomp83",
+    "group": "asset_potted_plant_plant_shadow",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp84",
+    "group": "asset_potted_plant_stems",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp85",
+    "group": "asset_potted_plant_stems",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp86",
+    "group": "asset_potted_plant_stems",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp87",
+    "group": "asset_potted_plant_leaf_left",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp88",
+    "group": "asset_potted_plant_leaf_left",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp89",
+    "group": "asset_potted_plant_leaf_right",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp90",
+    "group": "asset_potted_plant_leaf_right",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp91",
+    "group": "asset_potted_plant_leaf_top",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp92",
+    "group": "asset_potted_plant_pot",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp93",
+    "group": "asset_potted_plant_pot",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp94",
+    "group": "asset_potted_plant_pot",
+    "layer": "layer_potted_plant"
+  },
+  {
+    "id": "roomp95",
+    "group": "asset_coffee_table_coffee_table",
+    "layer": "layer_coffee_table"
+  },
+  {
+    "id": "roomp96",
+    "group": "asset_coffee_table_coffee_table",
+    "layer": "layer_coffee_table"
+  },
+  {
+    "id": "roomp97",
+    "group": "asset_coffee_table_coffee_table",
+    "layer": "layer_coffee_table"
+  },
+  {
+    "id": "roomp98",
+    "group": "asset_coffee_table_coffee_table",
+    "layer": "layer_coffee_table"
+  },
+  {
+    "id": "roomp99",
+    "group": "asset_coffee_table_coffee_table",
+    "layer": "layer_coffee_table"
+  },
+  {
+    "id": "roomp100",
+    "group": "asset_korean_study_book_book_shadow",
+    "layer": "layer_korean_study_book"
+  },
+  {
+    "id": "roomp101",
+    "group": "asset_korean_study_book_book_back_cover",
+    "layer": "layer_korean_study_book"
+  },
+  {
+    "id": "roomp102",
+    "group": "asset_korean_study_book_left_pages",
+    "layer": "layer_korean_study_book"
+  },
+  {
+    "id": "roomp103",
+    "group": "asset_korean_study_book_left_pages",
+    "layer": "layer_korean_study_book"
+  },
+  {
+    "id": "roomp104",
+    "group": "asset_korean_study_book_right_pages",
+    "layer": "layer_korean_study_book"
+  },
+  {
+    "id": "roomp105",
+    "group": "asset_korean_study_book_right_pages",
+    "layer": "layer_korean_study_book"
+  },
+  {
+    "id": "roomp106",
+    "group": "asset_korean_study_book_book_spine",
+    "layer": "layer_korean_study_book"
+  },
+  {
+    "id": "roomp107",
+    "group": "asset_korean_study_book_bookmark",
+    "layer": "layer_korean_study_book"
+  },
+  {
+    "id": "roomp108",
+    "group": "asset_coffee_cup_cup_shadow",
+    "layer": "layer_coffee_cup"
+  },
+  {
+    "id": "roomp109",
+    "group": "asset_coffee_cup_cup_handle",
+    "layer": "layer_coffee_cup"
+  },
+  {
+    "id": "roomp110",
+    "group": "asset_coffee_cup_cup_handle",
+    "layer": "layer_coffee_cup"
+  },
+  {
+    "id": "roomp111",
+    "group": "asset_coffee_cup_cup_body",
+    "layer": "layer_coffee_cup"
+  },
+  {
+    "id": "roomp112",
+    "group": "asset_coffee_cup_cup_body",
+    "layer": "layer_coffee_cup"
+  },
+  {
+    "id": "roomp113",
+    "group": "asset_coffee_cup_cup_body",
+    "layer": "layer_coffee_cup"
+  },
+  {
+    "id": "roomp114",
+    "group": "asset_coffee_cup_cup_body",
+    "layer": "layer_coffee_cup"
+  },
+  {
+    "id": "roomp115",
+    "group": "asset_coffee_cup_cup_saucer",
+    "layer": "layer_coffee_cup"
+  },
+  {
+    "id": "roomp116",
+    "group": "asset_coffee_steam_steam_left",
+    "layer": "layer_coffee_steam"
+  },
+  {
+    "id": "roomp117",
+    "group": "asset_coffee_steam_steam_center",
+    "layer": "layer_coffee_steam"
+  },
+  {
+    "id": "roomp118",
+    "group": "asset_coffee_steam_steam_right",
+    "layer": "layer_coffee_steam"
+  }
+]

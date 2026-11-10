@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+<title>Accessories fitted to the existing panda head</title>
+<desc>Additional accessory artwork only. The panda itself is unchanged.</desc>
+<g id="round_glasses" fill="none" stroke="#7096D1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="312" cy="341" r="65"/>
+  <circle cx="488" cy="340" r="65"/>
+  <path d="M377 337 Q400 321 423 337"/>
+  <path d="M247 330 L222 318"/>
+  <path d="M553 329 L577 316"/>
+</g>
+<g id="cute_hat" transform="translate(0 26)" stroke="#081F5C" stroke-width="10" stroke-linejoin="round">
+  <path d="M293 168 C294 112 333 91 400 91 C467 91 507 112 507 168 Z" fill="#7096D1"/>
+  <rect x="286" y="155" width="228" height="45" rx="17" fill="#334EAC"/>
+  <circle cx="400" cy="83" r="21" fill="#D0E3FF"/>
+</g>
+</svg>

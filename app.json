@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Haru \u00b7 Korean, every day",
+    "slug": "haru-korean",
+    "scheme": "harukorean",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.harukorean.mobile"
+    },
+    "android": {
+      "package": "app.harukorean.mobile",
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow Haru to hear your Korean practice. Audio is transcribed securely."
+        }
+      ],
+      "expo-font",
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/panda_rive_assets/panda-face.png",
+          "imageWidth": 240,
+          "resizeMode": "contain",
+          "backgroundColor": "#D0E3FF"
+        }
+      ],
+      "expo-asset",
+      "./plugins/withPandaWidgetAssets",
+      [
+        "expo-widgets",
+        {
+          "bundleIdentifier": "app.harukorean.mobile.panda-widget",
+          "groupIdentifier": "group.app.harukorean.mobile.panda",
+          "enableAndroid": false,
+          "enablePushNotifications": false,
+          "widgets": [
+            {
+              "name": "PandaCompanion",
+              "displayName": "Panda Companion",
+              "description": "A little Korean and a familiar friend.",
+              "ios": {
+                "supportedFamilies": ["systemSmall"],
+                "initialLayout": "src/features/panda-widget/widgets/PandaCompanion.ios.tsx"
+              },
+              "android": null
+            },
+            {
+              "name": "DailyKorean",
+              "displayName": "Daily Korean",
+              "description": "A daily Korean phrase and your learning progress.",
+              "ios": {
+                "supportedFamilies": ["systemMedium"],
+                "initialLayout": "src/features/panda-widget/widgets/DailyKorean.ios.tsx"
+              },
+              "android": null
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

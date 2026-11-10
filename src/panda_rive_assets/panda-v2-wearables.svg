@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<!-- Optional accessories only. Never cover or recolor the original fur. -->
+<g id="headphones"><path d="M336 520 Q337 568 400 568 Q463 568 464 520" fill="none" stroke="#347FA9" stroke-width="14"/><ellipse cx="337" cy="523" rx="22" ry="31" fill="#68B6DE" stroke="#347FA9" stroke-width="6"/><ellipse cx="463" cy="523" rx="22" ry="31" fill="#68B6DE" stroke="#347FA9" stroke-width="6"/></g>
+<g id="glasses"><circle cx="317" cy="353" r="51" fill="none" stroke="#347FA9" stroke-width="9"/><circle cx="483" cy="353" r="51" fill="none" stroke="#347FA9" stroke-width="9"/><path d="M368 352 Q400 337 432 352 M266 342 L244 334 M534 342 L556 334" fill="none" stroke="#347FA9" stroke-width="9" stroke-linecap="round"/></g>
+<g id="hat"><path d="M328 151 Q328 70 400 70 Q472 70 472 151Z" fill="#9EDAF2" stroke="#347FA9" stroke-width="7"/><rect x="318" y="140" width="164" height="28" rx="14" fill="#68B6DE" stroke="#347FA9" stroke-width="7"/><circle cx="400" cy="64" r="19" fill="#D9F2FC" stroke="#347FA9" stroke-width="6"/></g>
+</svg>

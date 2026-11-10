@@ -1,0 +1,705 @@
+{
+  "scope": "Public website research only; no application source or reusable Kigaru assets included.",
+  "records": [
+    {
+      "file": "kigaru-rea-page.json",
+      "evidence_id": "ev_385f7e733344dce321292719f0fa459d4947c4de87b83bf00f2b0012f69bfd19",
+      "operation": "inspect_web_page",
+      "parameters": {
+        "cdp_endpoint": "http://127.0.0.1:9222",
+        "allowed_origins": [
+          "https://kigarutalks.com"
+        ],
+        "target_id": "5F24B8F3D248F3D102A7CD41F4CFE65D",
+        "observation_ms": 500,
+        "include_accessibility_text": true,
+        "include_console_text": false,
+        "include_json_body_shapes": false,
+        "include_websocket_shapes": false,
+        "include_storage_keys": false,
+        "include_storage_fingerprints": false,
+        "include_script_sources": true
+      },
+      "limitations": [
+        "Artifact identity is unavailable for this observation.",
+        "Observation starts when REA attaches; prior network and console activity is unavailable.",
+        "Worker targets are a final inventory snapshot, not worker-session observation. Their attached flag describes any debugging client; this page-session collector does not observe worker network, console, or script events, and short-lived workers may be absent from the snapshot.",
+        "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+        "Source maps are reported only as declarative URLs and are not fetched.",
+        "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+        "CDP discovery omitted the target attachment state; attached is reported as unknown.",
+        "Browser host platform and architecture were not observed."
+      ],
+      "completeness": {
+        "status": "policy_filtered",
+        "conditions": [
+          "attach_limited",
+          "policy_filtered"
+        ],
+        "policy_filtered_sections": [
+          "console_text",
+          "json_body_shapes",
+          "metadata",
+          "resources",
+          "storage_keys",
+          "websocket_shapes"
+        ],
+        "attach_limited_sections": [
+          "console_events",
+          "metadata",
+          "network_requests",
+          "websocket_connections",
+          "websocket_frames",
+          "workers"
+        ],
+        "truncated_sections": [],
+        "unavailable_sections": [
+          "workers"
+        ],
+        "excluded": [
+          {
+            "section": "console_text",
+            "reason": "not_approved",
+            "count": null
+          },
+          {
+            "section": "json_body_shapes",
+            "reason": "not_approved",
+            "count": null
+          },
+          {
+            "section": "metadata",
+            "reason": "disallowed_origin",
+            "count": 11
+          },
+          {
+            "section": "metadata",
+            "reason": "unsupported_url",
+            "count": 2
+          },
+          {
+            "section": "resources",
+            "reason": "disallowed_origin",
+            "count": 21
+          },
+          {
+            "section": "resources",
+            "reason": "unsupported_url",
+            "count": 1
+          },
+          {
+            "section": "storage_keys",
+            "reason": "not_approved",
+            "count": null
+          },
+          {
+            "section": "websocket_shapes",
+            "reason": "not_approved",
+            "count": null
+          },
+          {
+            "section": "workers",
+            "reason": "unattributed_target",
+            "count": 1
+          }
+        ],
+        "dropped_events": {
+          "scripts": 0,
+          "network_requests": 0,
+          "console_events": 0,
+          "websocket_connections": 0,
+          "websocket_frames": 0,
+          "webmcp_tools": 0,
+          "timeline_events": 0,
+          "total": 0
+        }
+      },
+      "scripts": [
+        {
+          "url": "https://kigarutalks.com/",
+          "sha256": "f469bf0e380d8c250762a544dd1be5ca06209bc7aea1b86996711cb4bff7f5fb",
+          "bytes": 472
+        },
+        {
+          "url": "https://kigarutalks.com/_astro/BaseLayout.astro_astro_type_script_index_0_lang.DMXMYwo0.js",
+          "sha256": "0cd8abc82d063d7d037353bd64093936589ac0a29e6302a645bd93681a46c2a7",
+          "bytes": 5131
+        }
+      ]
+    },
+    {
+      "file": "kigaru-rea-bundle.json",
+      "evidence_id": "ev_30efea8bbbb5dcf911b0225a2c5f44e92d70002ee3d493de19719a2ce595f732",
+      "operation": "analyze_web_bundle",
+      "parameters": {
+        "cdp_endpoint": "http://127.0.0.1:9222",
+        "allowed_origins": [
+          "https://kigarutalks.com"
+        ],
+        "target_id": "5F24B8F3D248F3D102A7CD41F4CFE65D",
+        "observation_ms": 500,
+        "include_accessibility_text": false,
+        "include_console_text": false,
+        "include_json_body_shapes": false,
+        "include_websocket_shapes": false,
+        "include_storage_keys": false,
+        "include_storage_fingerprints": false,
+        "include_script_sources": true,
+        "fetch_source_maps": false
+      },
+      "limitations": [
+        "Artifact identity is unavailable for this observation.",
+        "Static bundle findings are observations or bounded inferences; REA does not execute captured JavaScript.",
+        "Bare string arguments of unbound HTTP-method-named calls are low-confidence endpoint candidates; form, translation, storage and other APIs can use the same syntax. URL-shaped findings still do not prove network execution.",
+        "Endpoint candidates are deduplicated by script, value and detector; basis retains only the first matching source coordinate. They are not a complete call-site inventory or a runtime occurrence count. completeness.status=\"complete\" describes examination of captured source, not a call-site census.",
+        "String-built routes and endpoints, encrypted configuration, and server-side behavior may remain unknown.",
+        "Page-declared WebMCP metadata is untrusted and is never registered or invoked as an REA tool."
+      ],
+      "completeness": {
+        "status": "complete",
+        "parsed_scripts": 2,
+        "parse_failures": 0,
+        "visited_ast_nodes": 1384
+      },
+      "observations": {
+        "chunks": {
+          "nodes": [
+            {
+              "script_key": "scr_69dd27cc2cd0e4e2831d1b7ecb956a55da9f281f4fde4489b79d85d399cb3319",
+              "url": "https://kigarutalks.com/",
+              "artifact_sha256": "f469bf0e380d8c250762a544dd1be5ca06209bc7aea1b86996711cb4bff7f5fb",
+              "bytes": 472
+            },
+            {
+              "script_key": "scr_cab89bf1a88524ce4be777b0d401f05fccb7c358353a68844b56629befdb185d",
+              "url": "https://kigarutalks.com/_astro/BaseLayout.astro_astro_type_script_index_0_lang.DMXMYwo0.js",
+              "artifact_sha256": "0cd8abc82d063d7d037353bd64093936589ac0a29e6302a645bd93681a46c2a7",
+              "bytes": 5131
+            }
+          ],
+          "edges": []
+        },
+        "routes": [],
+        "endpoints": [],
+        "webmcp_declarations": [],
+        "source_maps": {
+          "status": "not_requested",
+          "requested": 0,
+          "processed": 0,
+          "items": []
+        }
+      }
+    },
+    {
+      "file": "kigaru-rea-screenshot.json",
+      "evidence_id": "ev_41484e128cf8ebc12df113c450864c8e4833c907ad0891b71dad9df1026190a3",
+      "operation": "capture_web_screenshot",
+      "parameters": {
+        "cdp_endpoint": "http://127.0.0.1:9222",
+        "allowed_origins": [
+          "https://kigarutalks.com"
+        ],
+        "target_id": "5F24B8F3D248F3D102A7CD41F4CFE65D"
+      },
+      "limitations": [
+        "Artifact identity is unavailable for this observation.",
+        "The screenshot contains the visible viewport, including on-screen content.",
+        "REA does not scroll, evaluate JavaScript, or capture beyond the current viewport.",
+        "Browser host platform and architecture were not observed."
+      ],
+      "completeness": {
+        "status": "complete_within_window",
+        "conditions": [
+          "complete_within_window"
+        ],
+        "policy_filtered_sections": [],
+        "attach_limited_sections": [],
+        "truncated_sections": [],
+        "unavailable_sections": [],
+        "excluded": [],
+        "dropped_events": {
+          "scripts": 0,
+          "network_requests": 0,
+          "console_events": 0,
+          "websocket_connections": 0,
+          "websocket_frames": 0,
+          "webmcp_tools": 0,
+          "timeline_events": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "file": "kigaru-rea-mobile.json",
+      "evidence_id": "ev_a91024c98569af352abad72056b404269c3ce98e582d6a85632942991bfdbab5",
+      "operation": "capture_browser_scenario",
+      "parameters": {
+        "browser": {
+          "mode": "connect",
+          "cdp_endpoint": "http://127.0.0.1:9222",
+          "target_id": "5F24B8F3D248F3D102A7CD41F4CFE65D"
+        },
+        "start_url": {
+          "url": "https://kigarutalks.com/",
+          "query": []
+        },
+        "environment": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "device_scale_factor": 1
+          },
+          "locale": "en-US",
+          "timezone": "UTC",
+          "color_scheme": "light",
+          "reduced_motion": "no-preference",
+          "service_workers": "block"
+        },
+        "actions": [
+          {
+            "step_id": "settle",
+            "action": "wait_for_timeout",
+            "duration_ms": 500
+          },
+          {
+            "step_id": "open-menu",
+            "timeout_ms": 5000,
+            "action": "click",
+            "locator": {
+              "kind": "css",
+              "selector": "[data-menu-button]"
+            },
+            "button": "left",
+            "click_count": 1
+          },
+          {
+            "step_id": "go-faq",
+            "timeout_ms": 5000,
+            "action": "click",
+            "locator": {
+              "kind": "css",
+              "selector": "[data-mobile-menu] a[href=\"#faq\"]"
+            },
+            "button": "left",
+            "click_count": 1
+          },
+          {
+            "step_id": "faq-open",
+            "timeout_ms": 5000,
+            "action": "click",
+            "locator": {
+              "kind": "css",
+              "selector": "#faq details:first-of-type summary"
+            },
+            "button": "left",
+            "click_count": 1
+          }
+        ],
+        "storage": {
+          "cookies": [],
+          "local_storage": [],
+          "session_storage": []
+        },
+        "secrets": [],
+        "capture": {
+          "after_each_step": [
+            "screenshot"
+          ],
+          "at_end": [
+            "accessibility",
+            "url"
+          ],
+          "events": [
+            "network"
+          ],
+          "network": {
+            "request_body": false,
+            "response_body": false,
+            "header_values": false
+          },
+          "limits": {
+            "max_events": 10000,
+            "max_event_allocation_bytes": 4194304,
+            "max_total_event_allocation_bytes": 16777216,
+            "max_network_transactions": 1024,
+            "max_network_body_bytes": 65536,
+            "max_network_body_allocation_bytes": 1048576,
+            "max_network_header_allocation_bytes": 1048576,
+            "max_network_metadata_allocation_bytes": 1048576
+          }
+        },
+        "scenario_sha256": "364f8cb83ee673e371a3e41bd2c3683dc83255da2eacfedba20a7361678a2843"
+      },
+      "limitations": [
+        "Artifact identity is unavailable for this observation.",
+        "Event sequence records provider receipt order; simultaneous browser causality is not inferred.",
+        "Network content is retained only when selected; Playwright response-body bytes are API results and are not guaranteed to match wire bytes.",
+        "Request bytes are limited to what Playwright exposes; not_exposed does not establish body absence or multipart file coverage.",
+        "Network content reads settle within 5 seconds each and the observer does not request bodies from unfinished responses.",
+        "Playwright scenario events do not expose request initiator stacks; receipt order does not prove causality.",
+        "Storage values are hashed only after declared-secret redaction.",
+        "Shared-context network capture excludes requests without a known root or descendant Page frame.",
+        "CDP attachment cannot recover pre-attach events or guarantee launch-time context options.",
+        "Attached locale en-US applies to Intl formatting only; navigator.language(s) and Accept-Language remain caller-controlled. Use launch mode for matching page and request languages.",
+        "Detaching a CDP page session may clear caller-owned navigator.platform emulation. REA cannot snapshot the caller's complete user-agent/client-hint state before attachment; use launch mode to avoid mutating that external browser.",
+        "Browser host platform and architecture were not observed."
+      ],
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "accessibility",
+          "action",
+          "events",
+          "screenshot",
+          "url"
+        ],
+        "truncated_sections": []
+      },
+      "steps": [
+        {
+          "step_id": "scenario_start",
+          "action": "goto_start",
+          "status": "completed",
+          "error": null,
+          "completeness": {
+            "status": "complete",
+            "equality_eligible": true,
+            "missing_sections": [],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        },
+        {
+          "step_id": "settle",
+          "action": "wait_for_timeout",
+          "status": "completed",
+          "error": null,
+          "completeness": {
+            "status": "complete",
+            "equality_eligible": true,
+            "missing_sections": [],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        },
+        {
+          "step_id": "open-menu",
+          "action": "click",
+          "status": "failed",
+          "error": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-menu-button]')\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" class=\"menu-button\" data-menu-button=\"\" aria-expanded=\"false\" aria-label=\"Open menu\" data-astro-cid-o5wx45wj=\"\" aria-controls=\"mobile-menu\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+          "completeness": {
+            "status": "incomplete",
+            "equality_eligible": false,
+            "missing_sections": [
+              "action"
+            ],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        },
+        {
+          "step_id": "go-faq",
+          "action": "click",
+          "status": "cancelled",
+          "error": "not executed after an earlier action failure",
+          "completeness": {
+            "status": "incomplete",
+            "equality_eligible": false,
+            "missing_sections": [
+              "action",
+              "screenshot"
+            ],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        },
+        {
+          "step_id": "faq-open",
+          "action": "click",
+          "status": "cancelled",
+          "error": "not executed after an earlier action failure",
+          "completeness": {
+            "status": "incomplete",
+            "equality_eligible": false,
+            "missing_sections": [
+              "accessibility",
+              "action",
+              "screenshot",
+              "url"
+            ],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        }
+      ],
+      "browser_cleanup": "disconnected-external"
+    },
+    {
+      "file": "kigaru-rea-mobile-launch.json",
+      "evidence_id": "ev_8ba01ef7dbf8b5b96337931fa2db8c95e6921a23d2c4cfa9ef93e31bd99c9fd1",
+      "operation": "capture_browser_scenario",
+      "parameters": {
+        "browser": {
+          "mode": "launch",
+          "executable_path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+          "headless": true
+        },
+        "start_url": {
+          "url": "https://kigarutalks.com/",
+          "query": []
+        },
+        "environment": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "device_scale_factor": 1
+          },
+          "locale": "en-US",
+          "timezone": "UTC",
+          "color_scheme": "light",
+          "reduced_motion": "no-preference",
+          "service_workers": "block"
+        },
+        "actions": [
+          {
+            "step_id": "settle",
+            "action": "wait_for_timeout",
+            "duration_ms": 500
+          },
+          {
+            "step_id": "open-menu",
+            "timeout_ms": 5000,
+            "action": "click",
+            "locator": {
+              "kind": "css",
+              "selector": "[data-menu-button]"
+            },
+            "button": "left",
+            "click_count": 1
+          },
+          {
+            "step_id": "go-faq",
+            "timeout_ms": 5000,
+            "action": "click",
+            "locator": {
+              "kind": "css",
+              "selector": "[data-mobile-menu] a[href=\"#faq\"]"
+            },
+            "button": "left",
+            "click_count": 1
+          },
+          {
+            "step_id": "faq-open",
+            "timeout_ms": 5000,
+            "action": "click",
+            "locator": {
+              "kind": "css",
+              "selector": "#faq details:first-of-type summary"
+            },
+            "button": "left",
+            "click_count": 1
+          }
+        ],
+        "storage": {
+          "cookies": [],
+          "local_storage": [],
+          "session_storage": []
+        },
+        "secrets": [],
+        "capture": {
+          "after_each_step": [
+            "screenshot"
+          ],
+          "at_end": [
+            "accessibility",
+            "url"
+          ],
+          "events": [
+            "network"
+          ],
+          "network": {
+            "request_body": false,
+            "response_body": false,
+            "header_values": false
+          },
+          "limits": {
+            "max_events": 10000,
+            "max_event_allocation_bytes": 4194304,
+            "max_total_event_allocation_bytes": 16777216,
+            "max_network_transactions": 1024,
+            "max_network_body_bytes": 65536,
+            "max_network_body_allocation_bytes": 1048576,
+            "max_network_header_allocation_bytes": 1048576,
+            "max_network_metadata_allocation_bytes": 1048576
+          }
+        },
+        "scenario_sha256": "5009007da5b0cc16d8aac6f96e8f19641c4f5eb471cf275413f9472561e9295e"
+      },
+      "limitations": [
+        "Artifact identity is unavailable for this observation.",
+        "Event sequence records provider receipt order; simultaneous browser causality is not inferred.",
+        "Network content is retained only when selected; Playwright response-body bytes are API results and are not guaranteed to match wire bytes.",
+        "Request bytes are limited to what Playwright exposes; not_exposed does not establish body absence or multipart file coverage.",
+        "Network content reads settle within 5 seconds each and the observer does not request bodies from unfinished responses.",
+        "Playwright scenario events do not expose request initiator stacks; receipt order does not prove causality.",
+        "Storage values are hashed only after declared-secret redaction.",
+        "Browser host platform and architecture were not observed."
+      ],
+      "completeness": {
+        "status": "complete",
+        "equality_eligible": true,
+        "missing_sections": [],
+        "truncated_sections": []
+      },
+      "steps": [
+        {
+          "step_id": "scenario_start",
+          "action": "goto_start",
+          "status": "completed",
+          "error": null,
+          "completeness": {
+            "status": "complete",
+            "equality_eligible": true,
+            "missing_sections": [],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        },
+        {
+          "step_id": "settle",
+          "action": "wait_for_timeout",
+          "status": "completed",
+          "error": null,
+          "completeness": {
+            "status": "complete",
+            "equality_eligible": true,
+            "missing_sections": [],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        },
+        {
+          "step_id": "open-menu",
+          "action": "click",
+          "status": "completed",
+          "error": null,
+          "completeness": {
+            "status": "complete",
+            "equality_eligible": true,
+            "missing_sections": [],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        },
+        {
+          "step_id": "go-faq",
+          "action": "click",
+          "status": "completed",
+          "error": null,
+          "completeness": {
+            "status": "complete",
+            "equality_eligible": true,
+            "missing_sections": [],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/#faq",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        },
+        {
+          "step_id": "faq-open",
+          "action": "click",
+          "status": "completed",
+          "error": null,
+          "completeness": {
+            "status": "complete",
+            "equality_eligible": true,
+            "missing_sections": [],
+            "truncated_sections": []
+          },
+          "after_url": {
+            "url": "https://kigarutalks.com/#faq",
+            "origin": "https://kigarutalks.com",
+            "query_parameter_names": [],
+            "redacted": false
+          }
+        }
+      ],
+      "browser_cleanup": "terminated-owned-process"
+    },
+    {
+      "file": "kigaru-rea-mcp-targets.json",
+      "protocol": "MCP stdio",
+      "isError": false,
+      "evidence_id": "ev_4a45839de5fe3540c73b600875962b58f88a93a23814792f05aff0e5632db0f7",
+      "operation": "list_browser_targets",
+      "limitations": [
+        "Artifact identity is unavailable for this observation.",
+        "Only page targets whose current URL matches an explicitly requested exact origin are listed.",
+        "CDP discovery omitted attachment state for one or more targets; attached is reported as unknown.",
+        "Browser host platform and architecture were not observed."
+      ]
+    },
+    {
+      "file": "kigaru-rea-mcp-page.json",
+      "protocol": "MCP stdio",
+      "isError": false,
+      "evidence_id": "ev_3a19a9c173066e378721aab912e2c690795f98195a4450f017ae1f2d2e43771e",
+      "operation": "inspect_web_page",
+      "limitations": [
+        "Artifact identity is unavailable for this observation.",
+        "Observation starts when REA attaches; prior network and console activity is unavailable.",
+        "Worker targets are a final inventory snapshot, not worker-session observation. Their attached flag describes any debugging client; this page-session collector does not observe worker network, console, or script events, and short-lived workers may be absent from the snapshot.",
+        "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+        "Source maps are reported only as declarative URLs and are not fetched.",
+        "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+        "CDP discovery omitted the target attachment state; attached is reported as unknown.",
+        "Browser host platform and architecture were not observed."
+      ]
+    }
+  ]
+}

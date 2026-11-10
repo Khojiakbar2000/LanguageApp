@@ -1,0 +1,1 @@
+Panda mascot raster assets for React Native / Expo. Transparent PNG is a flattened image, not a layered SVG or Rive rig. For independent facial/body animations, recreate separate vector parts and rig them in Rive.

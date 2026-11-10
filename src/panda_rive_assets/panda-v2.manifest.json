@@ -1,0 +1,329 @@
+{
+  "source": "public/mascot/panda_rive_v2_assets/panda_rig_v2.svg",
+  "groups": [
+    {
+      "id": "panda_root",
+      "parent": null
+    },
+    {
+      "id": "tail",
+      "parent": "panda_root",
+      "pivot": [
+        626.0,
+        631.0
+      ]
+    },
+    {
+      "id": "body",
+      "parent": "panda_root",
+      "pivot": [
+        400.0,
+        576.0
+      ]
+    },
+    {
+      "id": "leg_left",
+      "parent": "panda_root",
+      "pivot": [
+        281.0,
+        621.0
+      ]
+    },
+    {
+      "id": "leg_right",
+      "parent": "panda_root",
+      "pivot": [
+        529.0,
+        621.0
+      ]
+    },
+    {
+      "id": "arm_left",
+      "parent": "panda_root",
+      "pivot": [
+        321.0,
+        478.0
+      ]
+    },
+    {
+      "id": "arm_right",
+      "parent": "panda_root",
+      "pivot": [
+        479.0,
+        478.0
+      ]
+    },
+    {
+      "id": "head",
+      "parent": "panda_root",
+      "pivot": [
+        400.0,
+        316.0
+      ]
+    },
+    {
+      "id": "ear_left",
+      "parent": "head",
+      "pivot": [
+        253.0,
+        178.0
+      ]
+    },
+    {
+      "id": "ear_right",
+      "parent": "head",
+      "pivot": [
+        547.0,
+        178.0
+      ]
+    },
+    {
+      "id": "head_fur",
+      "parent": "head"
+    },
+    {
+      "id": "cheek_left",
+      "parent": "head"
+    },
+    {
+      "id": "cheek_right",
+      "parent": "head"
+    },
+    {
+      "id": "brow_left",
+      "parent": "head"
+    },
+    {
+      "id": "brow_right",
+      "parent": "head"
+    },
+    {
+      "id": "eye_left",
+      "parent": "head",
+      "pivot": [
+        317.0,
+        354.0
+      ]
+    },
+    {
+      "id": "eye_right",
+      "parent": "head",
+      "pivot": [
+        483.0,
+        354.0
+      ]
+    },
+    {
+      "id": "nose",
+      "parent": "head"
+    },
+    {
+      "id": "mouth_neutral",
+      "parent": "head"
+    },
+    {
+      "id": "mouth_speaking",
+      "parent": "head"
+    },
+    {
+      "id": "mouth_happy",
+      "parent": "head"
+    },
+    {
+      "id": "eyes_closed",
+      "parent": "head"
+    }
+  ],
+  "shapes": [
+    {
+      "id": "v2p0",
+      "group": "tail",
+      "hidden": false
+    },
+    {
+      "id": "v2p1",
+      "group": "body",
+      "hidden": false
+    },
+    {
+      "id": "v2p2",
+      "group": "body",
+      "hidden": false
+    },
+    {
+      "id": "v2p3",
+      "group": "leg_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p4",
+      "group": "leg_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p5",
+      "group": "leg_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p6",
+      "group": "leg_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p7",
+      "group": "leg_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p8",
+      "group": "leg_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p9",
+      "group": "leg_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p10",
+      "group": "leg_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p11",
+      "group": "leg_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p12",
+      "group": "leg_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p13",
+      "group": "leg_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p14",
+      "group": "leg_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p15",
+      "group": "arm_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p16",
+      "group": "arm_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p17",
+      "group": "ear_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p18",
+      "group": "ear_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p19",
+      "group": "ear_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p20",
+      "group": "ear_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p21",
+      "group": "head_fur",
+      "hidden": false
+    },
+    {
+      "id": "v2p22",
+      "group": "head_fur",
+      "hidden": false
+    },
+    {
+      "id": "v2p23",
+      "group": "cheek_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p24",
+      "group": "cheek_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p25",
+      "group": "brow_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p26",
+      "group": "brow_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p27",
+      "group": "eye_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p28",
+      "group": "eye_left",
+      "hidden": false
+    },
+    {
+      "id": "v2p29",
+      "group": "eye_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p30",
+      "group": "eye_right",
+      "hidden": false
+    },
+    {
+      "id": "v2p31",
+      "group": "nose",
+      "hidden": false
+    },
+    {
+      "id": "v2p32",
+      "group": "mouth_neutral",
+      "hidden": false
+    },
+    {
+      "id": "v2p33",
+      "group": "mouth_speaking",
+      "hidden": true
+    },
+    {
+      "id": "v2p34",
+      "group": "mouth_speaking",
+      "hidden": true
+    },
+    {
+      "id": "v2p35",
+      "group": "mouth_happy",
+      "hidden": true
+    },
+    {
+      "id": "v2p36",
+      "group": "mouth_happy",
+      "hidden": true
+    },
+    {
+      "id": "v2p37",
+      "group": "eyes_closed",
+      "hidden": true
+    }
+  ]
+}

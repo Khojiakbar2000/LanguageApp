@@ -1,0 +1,8 @@
+node_modules
+.expo
+dist
+research
+test-results
+playwright-report
+package-lock.json
+supabase/functions/deno.lock
